@@ -106,5 +106,48 @@
 
 # Задача 5
 
+# def write_code():
+#     f = open('file3.txt', 'w')
+#     code = input('Введите текс, который нужно закодировать: ')
+#     f.write(code)
+#     f.close
+
+# def read_code():
+#     y = open('file3.txt', 'r')
+#     code_2 = str(y.readline())
+#     y.close
+#     return code_2
+
+# def rle_encode(data): 
+#     encoding = '' 
+#     prev_char = '' 
+#     count = 1
+#     if not data: return ''
+#     for char in data:
+#             if char != prev_char:
+#                 if prev_char: 
+#                     encoding += str(count) + prev_char 
+#                 count = 1 
+#                 prev_char = char
+#             else:
+#                 count += 1
+#     else:
+#         encoding += str(count) + prev_char 
+#         return encoding
+
+# def write_code_2():
+#     y = open('file3.txt', 'r')
+#     code_2 = str(y.readline())
+#     y.close
+#     f = open('file4.txt', 'w') 
+#     f.write(code_2)
+#     f.close
+
+
+# write_code()
+# write_code_2()
+
+# print(rle_encode(read_code()))
+
 
 
