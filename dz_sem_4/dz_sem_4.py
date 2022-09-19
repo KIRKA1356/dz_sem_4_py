@@ -26,4 +26,28 @@
 #             list_num_2.append(i)
 # print(list_num_2)
 
+# Задача 3
 
+
+# def write_file():
+#     f = open('file.txt', 'w')
+#     number_of_students = int(input('Введите кол-во студентов в группе: '))
+#     for i in range(0, number_of_students):
+#         Name = str(input('Введите имя и фамилию студента, через пробел: '))
+#         Mark = str(input('Введите оценку студента: '))
+#         if Mark == "5":
+#             f.write(Name.upper())
+#             f.write(" ")
+#             f.write(Mark)
+#             f.write('\n')
+#         else:
+#             f.write(Name)
+#             f.write(" ")
+#             f.write(Mark)
+#             f.write('\n')
+#     f.close
+# def rede_file():
+#     x = open('file.txt', 'r')
+#     print(*x)
+# write_file()
+# rede_file()
